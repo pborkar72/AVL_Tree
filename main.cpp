@@ -25,7 +25,7 @@ int main()
     if(tree.isBalanced())
         cout << "tree is balanced after all insertions" << endl;
 
-    //removing numbers randomly
+    //removing numbers 
     for(int i : data){
         tree.remove(i);
         if(!tree.isBalanced()){
